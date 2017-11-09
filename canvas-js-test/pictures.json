@@ -1,0 +1,36 @@
+var animalData = {
+	"top": [
+		{
+			"name" : "De",
+			"file" : "De.png",
+			"start": 305
+		},
+		{
+			"name" : "Gir",
+			"file" : "Gir.png",
+			"start": 286
+		},
+		{
+			"name" : "Llam",
+			"file" : "Llam.png",
+			"start": 79
+		}
+	],
+	"bottom": [
+		{
+			"name" : "ake",
+			"file" : "ake.png",
+			"start": 385
+		},
+		{
+			"name" : "ish",
+			"file" : "ish.png",
+			"start": 111
+		},
+		{
+			"name" : "orse",
+			"file" : "orse.png",
+			"start": 146
+		}
+	]
+}
