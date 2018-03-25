@@ -6,7 +6,7 @@ import time
 import datetime
 
 s = requests.Session()
-r = s.get('https://www.cinema-city.pl/api-backend-events/events')
+r = s.get('https://www.cinema-city.pl/pl/data-api-service/v1/quickbook/10103/film-events/in-cinema/1085/at-date/2018-01-14', params = {'lang':'pl_PL'})
 #print("Status: ", r.status_code)
 #print("JSON: ", r.json())
 #print("TEXT: ", r.text)
